@@ -60,7 +60,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="2Ve-0z-u4e">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nF5-F3-cl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="RDt-3p-8N4" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Kk3-z1-RQh"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xk5-92-jPg">
@@ -75,6 +74,7 @@
                         <segue destination="pVN-iE-zqI" kind="relationship" relationship="viewControllers" id="FVI-ke-aCd"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nF5-F3-cl8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-764" y="-468"/>
         </scene>
@@ -331,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDI-an-4EQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2751" y="-1806"/>
+            <point key="canvasLocation" x="2750.7246376811595" y="-1806.0267857142856"/>
         </scene>
         <!--Current Events-->
         <scene sceneID="kW9-JH-B26">
