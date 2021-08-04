@@ -465,11 +465,11 @@
             </objects>
             <point key="canvasLocation" x="-975" y="1250"/>
         </scene>
-        <!--Culture-->
+        <!--Identities-->
         <scene sceneID="bmg-Oq-lkk">
             <objects>
                 <navigationController id="fsX-jF-ovZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Culture" id="5yI-ly-Jqp"/>
+                    <tabBarItem key="tabBarItem" title="Identities" id="5yI-ly-Jqp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Amd-DP-A3N">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -498,7 +498,7 @@
             </objects>
             <point key="canvasLocation" x="-220" y="1957"/>
         </scene>
-        <!--Culture-->
+        <!--Identities-->
         <scene sceneID="Juy-G4-fBt">
             <objects>
                 <viewController id="wEH-99-uzn" sceneMemberID="viewController">
@@ -508,7 +508,7 @@
                         <viewLayoutGuide key="safeArea" id="on1-jO-XTe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Culture" id="RnV-oH-zBT"/>
+                    <navigationItem key="navigationItem" title="Identities" id="RnV-oH-zBT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LXy-5a-anV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
