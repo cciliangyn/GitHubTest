@@ -16,90 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdX-dG-SIL">
-                                <rect key="frame" x="41" y="93" width="333" height="104"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PC Pedia (1)-2" translatesAutoresizingMaskIntoConstraints="NO" id="P2l-j2-l24">
+                                <rect key="frame" x="-20" y="45" width="455" height="741"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Links to Resources">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="24" name="Optima-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ESx-LV-sgZ">
-                                <rect key="frame" x="20" y="277" width="177" height="46"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogc-jY-KpI">
+                                <rect key="frame" x="20" y="282" width="374" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65965440539999998" green="0.1902708789" blue="0.23632715300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Learn more about African Americans">
-                                            <attributes>
-                                                <font key="NSFont" size="25" name="Optima-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
                                 <connections>
-                                    <action selector="linkLM:" destination="dcg-a4-VeN" eventType="touchUpInside" id="zjx-p5-2zs"/>
+                                    <action selector="linkLM:" destination="dcg-a4-VeN" eventType="touchUpInside" id="noa-om-jPx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hd6-pN-EGp">
-                                <rect key="frame" x="224" y="277" width="155" height="46"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAA-2F-6jh">
+                                <rect key="frame" x="38" y="418" width="356" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65965440539999998" green="0.1902708789" blue="0.23632715300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="The Crown Act">
-                                            <attributes>
-                                                <font key="NSFont" size="25" name="Optima-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
                                 <connections>
-                                    <action selector="linkCA:" destination="dcg-a4-VeN" eventType="touchUpInside" id="AkD-WO-ZHF"/>
+                                    <action selector="linkCA:" destination="dcg-a4-VeN" eventType="touchUpInside" id="Kn0-k8-Fqh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EZL-N3-zQk">
-                                <rect key="frame" x="33" y="401" width="164" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIq-Kl-xrb">
+                                <rect key="frame" x="38" y="527" width="356" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65965440539999998" green="0.1902708789" blue="0.23632715300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Police Reforms After George Floyd's Death">
-                                            <attributes>
-                                                <font key="NSFont" size="25" name="Optima-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
                                 <connections>
-                                    <action selector="linkGF:" destination="dcg-a4-VeN" eventType="touchUpInside" id="EnL-RS-Svp"/>
+                                    <action selector="linkGF:" destination="dcg-a4-VeN" eventType="touchUpInside" id="3HP-L7-QSe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7D1-TR-0bV">
-                                <rect key="frame" x="233" y="425" width="137" height="46"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yF-cy-haY">
+                                <rect key="frame" x="38" y="647" width="356" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65965440539999998" green="0.1902708789" blue="0.23632715300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Black Lives Matter">
-                                            <attributes>
-                                                <font key="NSFont" size="25" name="Optima-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
                                 <connections>
-                                    <action selector="linkBLM:" destination="dcg-a4-VeN" eventType="touchUpInside" id="RzN-uj-Vvg"/>
+                                    <action selector="linkBLM:" destination="dcg-a4-VeN" eventType="touchUpInside" id="yKR-Ia-xB5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -958,19 +904,13 @@ Music: African Americans developed various styles of music by incorporating West
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kg1-nI-Efu">
-                                <rect key="frame" x="32" y="162" width="351" height="351"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PC Pedia (1)-1" translatesAutoresizingMaskIntoConstraints="NO" id="ce5-Au-zsx">
+                                <rect key="frame" x="-230" y="51" width="874" height="741"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <string key="text">     African Americans make up less than 15% of the U.S. population. African Americans mainly came to the U.S. by way of the Transatlantic slave trade (16th - 19th century).  After the abolition of slavery, African Americans continued to face discrimination through The Black Codes, Jim Crow Laws, and anti-African American groups such as the KKK.                                              The oppression African Americans endured still has an effect on them today. Among many issues, African Americans struggle with being subject to police brutality, victims of subconscious bias, poverty, and systemic racism.                                                                                 Though they faced, and still endure, hardships and challenges, African Americans have still greatly contributed to American Society and continue to do so.
-</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="opa-EY-9eD"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.89104048229999999" blue="0.60022926600000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Black &amp; African Americans" id="qgt-Vm-tYb"/>
                 </viewController>
@@ -1339,14 +1279,13 @@ https://www.axios.com/trans-youth-lgbtq-bill-sports-75aad489-ded5-4e1e-b70a-d0eb
         <image name="7" width="1080" height="1920"/>
         <image name="8" width="1080" height="1920"/>
         <image name="PC Pedia (1)" width="1080" height="1920"/>
+        <image name="PC Pedia (1)-1" width="1080" height="1920"/>
+        <image name="PC Pedia (1)-2" width="1080" height="1920"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
