@@ -37,6 +37,13 @@ class LGBTQViewController: UIViewController {
     @IBAction func linksHistory(_ sender: UIButton) {
         showSafariVC(for: "https://www.loc.gov/item/today-in-history/june-28/")
     }
+    @IBAction func linksCN(_ sender: UIButton) {
+        showSafariVC(for: "https://www.pbs.org/newshour/show/pride-2021-has-set-a-record-in-anti-trans-bills-in-america")
+    }
+    
+    @IBAction func linksCNTwo(_ sender: UIButton) {
+        showSafariVC(for: "https://www.axios.com/trans-youth-lgbtq-bill-sports-75aad489-ded5-4e1e-b70a-d0eb22d2d677.html")
+    }
     
     func showSafariVC(for url: String){
         guard let url = URL(string: url) else {
