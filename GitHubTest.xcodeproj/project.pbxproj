@@ -16,6 +16,9 @@
 		700046C226B98ECB00645EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700046C026B98ECB00645EF7 /* LaunchScreen.storyboard */; };
 		700046CD26B98ECB00645EF7 /* GitHubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700046CC26B98ECB00645EF7 /* GitHubTestTests.swift */; };
 		700046D826B98ECB00645EF7 /* GitHubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700046D726B98ECB00645EF7 /* GitHubTestUITests.swift */; };
+		7D0A23D426BC31BC00AC8CB7 /* AAPILinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A23D326BC31BC00AC8CB7 /* AAPILinksViewController.swift */; };
+		7D0A23D626BC446800AC8CB7 /* AAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A23D526BC446800AC8CB7 /* AAViewController.swift */; };
+		7D0A23D826BC497A00AC8CB7 /* LGBTQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A23D726BC497A00AC8CB7 /* LGBTQViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		700046D326B98ECB00645EF7 /* GitHubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		700046D726B98ECB00645EF7 /* GitHubTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTestUITests.swift; sourceTree = "<group>"; };
 		700046D926B98ECB00645EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0A23D326BC31BC00AC8CB7 /* AAPILinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAPILinksViewController.swift; sourceTree = "<group>"; };
+		7D0A23D526BC446800AC8CB7 /* AAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAViewController.swift; sourceTree = "<group>"; };
+		7D0A23D726BC497A00AC8CB7 /* LGBTQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBTQViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				700046B426B98EC500645EF7 /* SceneDelegate.swift */,
 				700046B626B98EC500645EF7 /* ViewController.swift */,
 				700046B826B98EC500645EF7 /* Main.storyboard */,
+				7D0A23D726BC497A00AC8CB7 /* LGBTQViewController.swift */,
+				7D0A23D526BC446800AC8CB7 /* AAViewController.swift */,
+				7D0A23D326BC31BC00AC8CB7 /* AAPILinksViewController.swift */,
 				700046BE26B98ECB00645EF7 /* Assets.xcassets */,
 				700046C026B98ECB00645EF7 /* LaunchScreen.storyboard */,
 				700046C326B98ECB00645EF7 /* Info.plist */,
@@ -261,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0A23D826BC497A00AC8CB7 /* LGBTQViewController.swift in Sources */,
+				7D0A23D426BC31BC00AC8CB7 /* AAPILinksViewController.swift in Sources */,
 				700046B726B98EC500645EF7 /* ViewController.swift in Sources */,
+				7D0A23D626BC446800AC8CB7 /* AAViewController.swift in Sources */,
 				700046B326B98EC500645EF7 /* AppDelegate.swift in Sources */,
 				700046BD26B98EC500645EF7 /* GitHubTest.xcdatamodeld in Sources */,
 				700046B526B98EC500645EF7 /* SceneDelegate.swift in Sources */,
